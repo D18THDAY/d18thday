@@ -2,7 +2,7 @@ let names = "Oluwaseun Sofoluwe Samuel";
 let courses = ["html", "css", "Javascript", "UI/UX"];
 
 
-console.log(`Names: ${names}, courses: ${courses}`);
+console.log(`Names: ${names}, Courses: ${courses}`);
 
 if(courses.length % 2===0){
     for(counter = 1; counter <=200; counter++){
