@@ -1,5 +1,5 @@
 let names = "Oluwaseun Sofoluwe Samuel";
-let courses = ["html", "css", "Javascript", "UI/UX"];
+const courses = ["html", "css", "Javascript", "UI/UX"];
 
 
 console.log(`Names: ${names}, Courses: ${courses}`);
