@@ -22,7 +22,7 @@ let interestCalculator = function(x){
 			rate = 1;
 		}
 
-		interest = x[i].principal * x[i].time * rate;
+		interest = (x[i].principal * x[i].time * rate)/100;
 
 		interestData.push({principal: x[i].principal, rate: rate, time: x[i].time, interest: interest});
 
